@@ -1,0 +1,27 @@
+import sys
+from PyQt5.uic import loadUi
+from PyQt5 import QtWidgets
+from PyQt5.QtWidgets import QDialog, QApplication, QWidget, QStackedWidget
+
+
+
+      
+class PaymentScreen(QDialog):
+    def __init__(self):
+        super(PaymentScreen,self).__init__()
+        self.screen = uic.loadUi("/home/ninggt/anaconda3/envs/OKJ_env/OKJ_ws/src/gui/paymentScreen.ui",self)
+        self.screen.clickything.clicked.connect(self.button_clicked)
+#main
+app = QApplication(sys.argv)
+payment = PaymentScreen()
+widget = QStackedWidget()
+widget.addWidget(payment)
+widget.setFixedHeight(800)
+widget.setFixedWidth(1200)
+widget.show()
+
+
+try:
+    sys.exit(app.exec())
+except:
+    print("Exiting")

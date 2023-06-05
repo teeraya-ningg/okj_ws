@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1086</width>
+    <height>751</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#widget{background:rgb(251, 248, 231)}</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QWidget" name="widget" native="true">
+    <property name="geometry">
+     <rect>
+      <x>-30</x>
+      <y>-10</y>
+      <width>1121</width>
+      <height>834</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>OpenSymbol</family>
+      <pointsize>15</pointsize>
+     </font>
+    </property>
+    <widget class="QLabel" name="OHKAJHU">
+     <property name="geometry">
+      <rect>
+       <x>70</x>
+       <y>40</y>
+       <width>321</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>element/logo/OHKAJHU_GREEN.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QWidget" name="widget_menuBar" native="true">
+     <property name="geometry">
+      <rect>
+       <x>29</x>
+       <y>669</y>
+       <width>1091</width>
+       <height>91</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">QWidget#widget_menuBar{background:rgb(50, 76, 38)}</string>
+     </property>
+     <widget class="QPushButton" name="homeButton">
+      <property name="geometry">
+       <rect>
+        <x>478</x>
+        <y>0</y>
+        <width>121</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#customSaladButton{background-color: rgb(245,134,57);border-radius: 40px;color: rgb(238, 238, 236);font-size: 25px }
+</string>
+      </property>
+      <property name="text">
+       <string>HOME</string>
+      </property>
+      <property name="autoDefault">
+       <bool>false</bool>
+      </property>
+      <property name="default">
+       <bool>false</bool>
+      </property>
+      <property name="flat">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QFrame" name="frame">
+     <property name="geometry">
+      <rect>
+       <x>100</x>
+       <y>130</y>
+       <width>951</width>
+       <height>521</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">#frame{background:rgb(233, 245, 216);border-radius: 25px;}</string>
+     </property>
+     <property name="frameShape">
+      <enum>QFrame::StyledPanel</enum>
+     </property>
+     <property name="frameShadow">
+      <enum>QFrame::Raised</enum>
+     </property>
+     <widget class="QWidget" name="customSaladWidget" native="true">
+      <property name="geometry">
+       <rect>
+        <x>40</x>
+        <y>40</y>
+        <width>861</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">#saladStepWidget{background:rgb(	249,	247,	243);border-radius: 25px;}
+</string>
+      </property>
+      <widget class="QLabel" name="customSaladLabel">
+       <property name="geometry">
+        <rect>
+         <x>190</x>
+         <y>0</y>
+         <width>441</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>OpenSymbol</family>
+         <weight>50</weight>
+         <italic>false</italic>
+         <bold>false</bold>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#customSaladLabel{font-size: 35px;font: &quot;Open Sans&quot;;}</string>
+       </property>
+       <property name="text">
+        <string>Custom your own salad</string>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="customSaladButton">
+       <property name="geometry">
+        <rect>
+         <x>700</x>
+         <y>70</y>
+         <width>89</width>
+         <height>91</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Open Sans</family>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">#customSaladButton{background-color: rgb(245,134,57);border-radius: 40px;color: rgb(238, 238, 236);font-size: 15px }
+</string>
+       </property>
+       <property name="text">
+        <string>START</string>
+       </property>
+       <property name="autoDefault">
+        <bool>false</bool>
+       </property>
+       <property name="default">
+        <bool>false</bool>
+       </property>
+       <property name="flat">
+        <bool>false</bool>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

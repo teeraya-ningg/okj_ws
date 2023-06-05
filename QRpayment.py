@@ -1,0 +1,3 @@
+
+def generateQR(ff):
+    pass
